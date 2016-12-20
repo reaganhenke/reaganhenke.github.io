@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <!-- Core -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+        <script type="text/javascript" src="uikit/js/uikit.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="uikit/css/custom-uikit.css" />
+        <link rel="stylesheet" type="text/css" href="my-css.css" />
+
+        <!-- Sticky -->
+        <link rel="stylesheet" type="text/css" href="uikit/css/components/sticky.min.css" />
+        <script type="text/javascript" src="uikit/js/components/sticky.min.js"></script>
+
+        <!-- Parallax -->
+        <script type="text/javascript" src="uikit/js/components/parallax.min.js"></script>
+        <script type="text/javascript" src="custom-parall.js"></script>
+
+        <!-- Lightbox --> 
+        <script type="text/javascript" src="uikit/js/components/lightbox.min.js"></script>
+
+    </head>
+    <body>
+
+<!-- Navigation -->
+    <div class="uk-container uk-container-center uk-responsive-width uk-padding-remove uk-margin-remove" >
+
+        <nav id= "mynavbar" class="uk-navbar uk-responsive-width" data-uk-sticky="{animation: 'uk-animation-slide-top'}">
+            <a href="" class="uk-navbar-brand">
+                <div class="uk-container uk-overlay" style="width:300px; height:100px">
+                <img src="rhbrand.png" width="40%" height="40%"></img>
+                </div>
+            </a>
+            <div class="uk-navbar-flip">
+            <ul id="navoptions" class="uk-navbar-nav" data-uk-scrollspy-nav="{closest: 'li', smoothscroll: true}" >
+                <li><a href="#headerblock"></a></li>
+                <li><a href="#projects">independent projects</a></li>
+                <li><a href="#experience">experience</a></li>
+                <li><a href="#classwork">classwork</a></li>
+                <li><a href="#management">management</a></li>
+                <li><a href="#design">design/branding</a></li>
+            </ul>
+            </div>
+        </nav>
+    </div>
+
+
+<!-- Header -->
+    <div id="headerblock" class="uk-container uk-position-relative uk-container-center uk-margin-remove uk-padding-remove uk-responsive-width" >
+       
+        <div class="uk-cover">
+            <img src="websitebackground3.png"></img>   
+        </div>
+        <div class="uk-position-cover uk-flex uk-flex-middle" >
+            <div id = "headertextblock" class="uk-flex uk-flex-left uk-flex-middle uk-width-1-2 "> 
+                <div id = "headertext" class="uk-container uk-container-center" data-uk-parallax="{opacity: 0, viewport: 0.5, y: -80}"> 
+                    <h1 class="header"> Hello. </h1> 
+                    <p> My name is Reagan Henke. I'm graduating with a major in Psychology and a minor in Computer Science from Carnegie Mellon University this Spring (2017). I have experience as a software engineer with Best Nomos Medical International and experience as a research assistant and editor. </p>
+                    <!-- <p>Your company and your time are valuable. You can’t afford to hire someone who doesn’t understand what you do. I have a background in code and technology and experience managing people and projects. I am a valuable asset to any team.</p> -->
+                    <p> In my free time, I manage my a cappella group. I'm a passionate musician and I love to sing. </p> 
+                </div>
+            </div>
+
+
+            <div class="uk-flex uk-flex-right uk-flex-middle uk-width-1-2"> 
+                <div class="uk-container uk-container-center " data-uk-parallax="{y: -80}"> 
+                    <!-- <img src="websitebackground2_3.png"></img>  -->
+                </div>
+            </div>
+        </div>
+    </div>  
+
+
+<!-- *********  Content ********** -->
+
+    <!-- INDEPENDENT PROJECTS -->
+    <div id="projects" class="uk-container uk-container-center uk-margin uk-responsive-width" style="background:#eee; margin-left: 80px; margin-right:80px; padding:20px;">
+
+        <div class="uk-grid uk-container-center" style="padding-left:40px;, padding-right:40px;">
+                <!-- header -->
+                <div class="uk-width-1-10 uk-padding-remove uk-margin-remove" data-uk-parallax="{bulbOffset:'500,0', viewport:0.5}">
+                
+                <svg xmlns="http://www.w3.org/2000/svg" width="160.372" height="246.788" viewBox="0 0 160.372 246.788">
+                    <path id= "bulb" fill="none" stroke="#303030" stroke-width="5" stroke-miterlimit="10" stroke-dasharray="258.5579" stroke-dashoffset="0" d="M79.3 180.266h47.87s8.76.63 8.76 12.342c0 11.713-7.968 12.34-7.968 12.34H30.64s-7.972-.627-7.972-12.34c0-11.71 8.763-12.342 8.763-12.342H79.3z"/>
+                    <path id="bulb1" fill="none" stroke="#303030" stroke-width="5" stroke-miterlimit="10" stroke-dasharray="204.0057" stroke-dashoffset="0" d="M79.926 204.95h36.122s8.442.527 8.442 10.354c0 9.826-7.68 10.35-7.68 10.35l-36.885.004-36.882-.003s-7.682-.524-7.682-10.35c0-9.828 8.445-10.356 8.445-10.356h36.12z"/>
+                    <path id="bulb2" fill="none" stroke="#303030" stroke-width="5" stroke-miterlimit="10" stroke-dasharray="471.83774" stroke-dashoffset="0" d="M119.354 180.334s-1.22 3.744 3.8-23.02c8.772-38.28 35.822-38.68 35.413-79.675-.412-40.994-24.59-75.84-78.382-75.84-53.79 0-77.97 34.845-78.38 75.84-.41 40.994 26.122 41.895 35.41 79.674 5.02 26.763 3.802 23.02 3.802 23.02"/>
+                    <path id="bulb3" fill="none" stroke="#303030" stroke-width="5" stroke-miterlimit="10" stroke-dasharray="98.43544" stroke-dashoffset="0" d="M78.722 226.465h10.943s8.76.47 8.76 9.26c0 8.792-7.97 9.26-7.97 9.26l-11.733.003-10.578-.002s-7.972-.47-7.972-9.26 8.763-9.26 8.763-9.26h9.787z"/>
+                    <path id="bulb4" fill="none" stroke="#74a2f8" stroke-width="5" stroke-miterlimit="10" stroke-dasharray="396.05" stroke-dashoffset="0" d="M95.45 180.266c-1.614-3.21-2.883-29.73-2.384-36.155 2.113-27.21 5.88-46.824 9.65-51.67s11.306-8.612 15.61-5.113c4.31 3.5 2.14 11.66-3.64 15.387-5.78 3.725-18.29 2.43-24.656-.76-6.367-3.187-14.246-8.937-17.193-17.588-2.865-8.41-1.525-16.69 7.088-16.958 8.614.27 9.954 8.55 7.09 16.958-2.948 8.65-10.828 14.4-17.193 17.59-6.367 3.187-18.877 4.483-24.658.758-5.78-3.726-7.948-11.887-3.64-15.387 4.306-3.5 11.843.27 15.61 5.114s7.538 24.46 9.65 51.67c.5 6.422-.767 32.944-2.382 36.156"/>
+                </svg>
+                  
+                </div>
+                <div class="uk-width-9-10" style="padding:20px; height:150px;">
+                    <h1>independent projects</h1>
+                    <p>I solve problems. I come up with ways to make things work better (and I have a lot of fun on the side. <br> Looking for my school related work? Check out my <a href="#classwork" data-uk-smooth-scroll>Classwork</a> section. These are projects I've taken on independently. </p> 
+                </div>
+
+            <!-- spambot -->
+            <div class="uk-width-medium-1-2 uk-margin">
+                <h2>SpamBot</h2>
+                <p>SpamBot is a Google Sheets add-on I wrote to get people to respond to Google Forms more efficiently. The script is written in GoogleScript, it parses the respondants so far and sends timed email reminders to people it's still waiting on. SpamBot has a full user interface written in HTML, allowing for customizable email content, timing, and respondant lists. </p>
+                <p> You can download SpamBot <a href="https://chrome.google.com/webstore/detail/spambot/jmfpkbpeiljmacbfmkeldklpcgbfngdj?hl=en"> on the Google Store</a></p>
+            </div>
+            <div class="uk-width-medium-1-2">
+                <!-- spambot demo pics --> 
+                <img width="350" src="spambot_demo.png" style="margin-top:20px;"></img>
+            </div>
+
+            <!-- PreferenceSort --> 
+            <div class="uk-width-medium-1-2 uk-margin" >
+                <h2>PreferenceSort</h2>
+                <p>PreferenceSort is another Google Sheets add-on I wrote. For our a cappella group, we needed a way for each member to give input on what songs they wanted to sing so we could rank them by preference. PreferenceSort tracks User Properties and allows users to "upvote" or "downvote" each option using arrows in a sidebar menu. This way, everyone gets one anonymous vote per song, and we can sort the songs by preference. </p>
+                <p>PreferenceSort is pending approval on the Google store. </p>
+            </div>
+            <div class="uk-width-medium-1-2">
+                <!-- pref sort demo pics --> 
+                <img width="350" src="prefsort_demo.png" style="margin-top:20px;"></img>
+            </div>
+
+            <!--8bit campus -->
+            <div class="uk-width-medium-1-2 uk-margin">
+                <h2>8Bit Campus</h2>
+                <p> 8Bit Campus is a game I wrote using Python and Pygame, inspired by my time at college and acappella competitions. I created all code, pixel art, sprites, and background music. It functions as an RPG like Pokemon, but on a college campus. Instead of battling, players can have "sing-off" style fights with other characters by hitting the right notes. You can find the demo code on my <a href="https://github.com/reaganhenke/8Bit-Campus">GitHub</a>, and watch the demo in action on my <a href="https://www.youtube.com/watch?v=OoftmZGZqFw">Youtube</a>.</p>
+            </div>
+            <div class="uk-width-medium-1-2 uk-margin">
+                <!-- 8bit demo vid --> 
+                <div class="uk-cover" style="height: 200px; width: 350px; margin-top:20px;">
+                        <video class="uk-cover-background" autoplay loop muted >
+                            <source src="8bitclips.mp4" type="video/mp4">
+                        </video>
+                </div>
+            </div>
+
+            <!-- TrebleYourself (publish this) and ReminderBot (maybe publish this?) -->
+
+        </div>
+    </div> 
+
+
+    <div style="height:50px;"></div>
+
+
+    <!-- EXPERIENCE -->
+    <div id="experience" class="uk-container uk-container-center uk-margin uk-responsive-width" style="background:#eee; margin-left: 80px; margin-right:80px; padding:20px;">
+
+        <div class="uk-grid uk-container-center" style="padding-left:40px; padding-right:40px;">
+                <!-- header -->
+                <div class="uk-width-1-10 uk-padding-remove uk-margin-remove" data-uk-parallax="{connectOffset:'500,0', viewport:0.5}"> 
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="160.56" height="246.96" viewBox="0 0 160.56 246.96">
+                        <circle id="connect" fill="none" stroke="#74a2f8" stroke-width="5" stroke-miterlimit="10" stroke-dasharray="137.036" stroke-dashoffset="0" cx="97.825" cy="126.744" r="21.81"/>
+                        <circle id="connect1" fill="none" stroke="#303030" stroke-width="5" stroke-miterlimit="10" stroke-dasharray="137.036" stroke-dashoffset="0" cx="136.444" cy="22.81" r="21.81"/>
+                        <circle id="connect2" fill="none" stroke="#303030" stroke-width="5" stroke-miterlimit="10" stroke-dasharray="137.036" stroke-dashoffset="0" cx="23.81" cy="106.448" r="21.81"/>
+                        <circle id="connect3" fill="none" stroke="#303030" stroke-width="5" stroke-miterlimit="10" stroke-dasharray="137.036" stroke-dashoffset="0" cx="136.75" cy="223.15" r="21.81"/>
+                        <path id="connect4" fill="none" stroke="#303030" stroke-width="5" stroke-miterlimit="10" stroke-dasharray="161.417" stroke-dashoffset="0" d="M43.458 115.925l32.74 8.024M129.312 43.42l-23.5 63.03M107.607 146.236l21.705 56.408"/>
+                    </svg>
+
+                </div>
+                <div class="uk-width-9-10" style="padding:20px;height: 150px;">
+                    <h1>experience</h1>
+                    <p>These are the jobs that I have had. You can find my single-page resume <a href="resume.pdf" download>here</a>.</p>
+                </div>
+        </div>
+            <!-- resume scroll -->
+            <div class="uk-container uk-container-center uk-width-medium-1-1 uk-margin-remove uk-padding-remove">
+                <div class="uk-cover-background" style="height: 200px; background-image: url(resume_scroll.jpg)" data-uk-parallax="{bg: -500}"></div>
+            </div>
+
+        <div class="uk-grid uk-container-center" style="padding:20px; padding-left:20px; padding-right:40px;">
+            <div class="uk-width-medium-1-3 uk-margin-remove uk-padding-small">
+                <h2>Software Engineer Intern</h2>
+                <h3>Best Nomos Medical <br> (Summer 2016)</h3>
+                <p> Over the summer I worked with Best Medical International in Pittsburgh, PA as a software engineer intern. I debugged software for radiation oncology and wrote tests for the new release. I also worked on the test database and bug reporting system.</p>
+            </div>
+            <div class="uk-width-medium-1-3 uk-margin-remove uk-padding-small" >
+                <h2>Teaching Assistant</h2>
+                <h3>CMU Psychology Department <br> (2016)</h3>
+                <p>I worked as a teaching assistant for a research methods course at Carnegie Mellon. I assisted teams in the course to create their research projects and software for running their experiments in Python and EPrime. I also compiled and ananlyzed class data. </p>
+            </div>
+            <div class="uk-width-medium-1-3 uk-margin-remove uk-padding-small">
+                <h2>Research Assistant</h2>
+                <h3>Dr. Janell Carroll / Cengage <br> (Summer 2015)</h3>
+                <p> Last summer I interned for Dr. Janell Carroll and assisted with the latest release of her Sexuality Now textbook through Cengage. I proofread and editted chapters, as well as created graphics and charts for the text. I also implemented several online resources for Dr. Carroll.</p>
+                <!-- The website I made can be found here -->
+            </div>
+
+        </div>
+    </div> 
+
+
+    <div style="height:50px;"></div>
+
+
+    <!-- CLASSWORK -->
+    <div id="classwork" class="uk-container uk-container-center uk-margin uk-responsive-width" style="background:#eee; margin-left: 80px; margin-right:80px; padding:20px;">
+
+        <div class="uk-grid uk-container-center" style="padding-left:40px; padding-right:40px;" >
+                <!-- header -->
+                <div class="uk-width-1-10 uk-padding-remove uk-margin-remove" data-uk-parallax="{docOffset:'500,0', viewport:0.5}"> 
+                <svg xmlns="http://www.w3.org/2000/svg" width="160.56" height="246.96" viewBox="0 0 160.56 246.96">
+                    <path id="doc0" fill="none" stroke="#303030" stroke-width="5" stroke-miterlimit="10" stroke-dasharray="838.4584" stroke-dashoffset="0" d="M158.493 130.246v84.885c0 16.37-2.488 29.084-18.938 29.084H20.266S1.33 231.5 1.33 215.13v-84.885-99.28C1.33 14.592 3.818 1.88 20.268 1.88h119.289s18.938 12.712 18.938 29.084c-.002 16.373-.002 99.282-.002 99.282z"/>
+                    <path id="doc1" fill="none" stroke="#303030" stroke-width="5" stroke-miterlimit="10"  stroke-dasharray="966.1288" stroke-dashoffset="0" d="M19.658 204.547h112.155s9.88.173 9.88-10.06c0-10.23-9.88-9.71-9.88-9.71l-54.01-.004-49.073-.006s-9.88.52-9.88-9.71S28.73 165 28.73 165h103.1s9.88.172 9.88-10.06c0-10.23-9.88-9.71-9.88-9.71l-48.668-.004-54.432-.006s-9.88.52-9.88-9.71 9.88-10.057 9.88-10.057h103.1s9.88.173 9.88-10.058c0-10.23-9.88-9.71-9.88-9.71H18.85"/>
+                    <path id="doc2" fill="none" stroke="#74a2f8" stroke-width="5" stroke-miterlimit="10" stroke-dasharray="200" stroke-dashoffset="0" d="M135.417 68.423L119.49 65.22l-11.666 11.306-1.876-16.137-14.356-7.603 14.764-6.772 2.795-16.002 11.003 11.95 16.085-2.287-7.967 14.158z"/>
+                </svg>
+                </div>
+                <div class="uk-width-9-10" style="padding:20px; height:150px;">
+                    <h1>classwork</h1>
+                    <p>I'm a senior with a major in psychology and a minor in computer science. In my four years at Carnegie Mellon, I've worked on a lot of interesting projects. Here's some of my relevant classwork and favorite projects. </p>
+                </div>
+
+            <!-- CS -->
+            <div class="uk-width-1-1 uk-padding-remove uk-margin">
+                <h2> Computer Science</h2>
+            </div>
+            <!-- leaving out 15-322 -->
+            <div class="uk-width-medium-1-3 uk-margin" style="padding:10px;" >
+                <h3>15-323 Computer Music and Information Systems (Fall 2016)</h3>
+                <p> Studied composition and computational techniques, as well as information systems and processing in real time environments. My final project was a Markov String Quartet Generator that was controlled by a TouchOSC app. You can watch a demo on my <a href="https://youtu.be/Dr5jtUAfFxc">YouTube</a>.</p>
+            </div>
+            <div class="uk-width-medium-2-3 uk-margin" >
+                <div class="uk-cover" style="height: 200px; width: 550px; margin:15px;">
+                        <video class="uk-cover-background" width="500" height="400" autoplay loop muted >
+                        <source src="musicclips.mp4" type="video/mp4">
+                        </video>
+                </div>
+            </div>
+            <div class="uk-width-medium-1-3 uk-margin" style="padding:10px;" >
+                <h3>15-210 Parallel and Sequential Data Structures(Fall 2015)</h3>
+                <p>Studied a variety of data structures and algorithms with a focus on parallelism. Familiar with Standard ML(SML) language. <p/> 
+            </div>
+            <div class="uk-width-medium-1-3 uk-margin" style="padding:10px;" >
+                <h3>15-213 Introduction to Computer Systems (Spring 2015)</h3>
+                <p> Studied computer systems, familiar with C and machine level code. Code from this course can't be distributed, but projects included writing a cache, a shell, experience with malloc and proxies.</p>
+            </div>
+             <div class="uk-width-medium-1-3 uk-margin" style="padding:10px;" >
+                <h3>15-150 Functional Programming (Spring 2015)</h3>
+                <p>Experience with functional programming. </p>
+            </div>
+            <div class="uk-width-medium-1-3 uk-margin" style="padding:10px;" >
+                <h3>15-122 Principles of Imperative Programming (Fall 2014)</h3>
+                <p>Experience with imperative programming, experience with C.</p>
+            </div>
+            <div class="uk-width-medium-1-3 uk-margin" style="padding:10px;" >
+                <h3>15-112 Fundamentals of Programming (Spring 2014)</h3>
+                <p>Familiar with Python. My final project was a 2D array based program that could be used to design sweater knitting patterns. Demo is available on <a href="https://www.youtube.com/watch?v=jTIaIkjy08Y">YouTube</a>.</p>
+            </div>
+            <div class="uk-width-medium-1-3 uk-margin" style="padding:10px;">
+                <div class="uk-cover" style="height: 150px; width: 250px; margin:15px;">
+                        <video class="uk-cover" width="300" height="200" autoplay loop muted >
+                        <source src="knitclips.mp4" type="video/mp4">
+                        </video>
+                </div>
+            </div>
+
+            <!-- PYSCH -->
+            <div class="uk-width-1-1 uk-padding-remove uk-margin">
+                <h2> Psychology </h2>
+            </div>
+
+            <div class="uk-width-medium-1-2 uk-margin" style="padding:10px;" >
+                <h3>Research Methods in Cognitive Psychology <br> (Spring 2016)</h3>
+                <p>Created a linguistic parsing task in python. The program measured reaction times, randomized conditions,  computed hundreds of stimulation pairs, and saved a data file for each participant.</p>
+                <!-- Post this code on github? -->
+            </div>
+            <div class="uk-width-medium-1-2 uk-margin" style="padding:10px;" >
+                <h3>Music Cognition <br> (Spring 2016)</h3>
+                <p>Created hundreds of wav files of music stimulation and created experiment program using EPrime software and inline coding conditions (based on C).</p>
+            </div>
+            <!-- Psychology of Gender? -->
+        </div>
+    </div> 
+
+
+    <div style="height:50px;"></div>
+
+
+    <!-- MANAGEMENT -->
+    <div id="management" class="uk-container uk-container-center uk-margin uk-responsive-width" style="background:#eee; margin-left: 70px; margin-right:70px; padding:20px;">
+
+        <div class="uk-grid uk-container-center" style="padding-left:40px; padding-right:40px;">
+                <!-- header -->
+                <div class="uk-width-1-10 uk-padding-remove uk-margin-remove" data-uk-parallax="{gearOffset:'500,0', viewport:0.5}">
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="160.56" height="246.96" viewBox="0 0 160.56 246.96">
+                    <path id="gear0" fill="none" stroke="#74a2f8" stroke-width="5" stroke-miterlimit="10" stroke-dasharray="499.91077" stroke-dashoffset="0" d="M126.744 125.604V113.17l-16.773-4.288c-1.162-5.034-3.12-9.763-5.765-14.028l8.89-14.844-8.754-8.832-14.924 8.762c-4.355-2.753-9.202-4.793-14.372-5.987l-4.285-16.77H58.323l-4.285 16.77c-5.038 1.16-9.77 3.12-14.035 5.767l-14.84-8.888-8.83 8.754 8.76 14.923c-2.75 4.357-4.802 9.2-5.993 14.374l-16.765 4.283v12.436l16.77 4.285c1.162 5.037 3.12 9.77 5.768 14.033l-8.888 14.84 8.753 8.83 14.926-8.76c4.357 2.75 9.2 4.8 14.373 5.99l4.283 16.768h12.435l4.286-16.77c5.037-1.162 9.767-3.12 14.033-5.768l14.84 8.89 8.832-8.755-8.764-14.927c2.752-4.355 4.8-9.2 5.99-14.37l16.768-4.284z"/>
+                    <circle id="gear1" fill="none" stroke="#303030" stroke-width="5" stroke-miterlimit="10" stroke-dasharray="184.3549" stroke-dashoffset="0" cx="64.541" cy="119.386" r="29.341"/>
+                    <path id="gear2" fill="none" stroke="#303030" stroke-width="5" stroke-miterlimit="10" stroke-dasharray="283.3648" stroke-dashoffset="0" d="M150.365 33.19l-1.406-6.876-9.844-.456c-1.217-2.65-2.846-5.04-4.8-7.097l3.278-9.218-5.88-3.883-7.337 6.544c-2.74-1.025-5.673-1.6-8.693-1.67l-4.286-8.78-6.938 1.418-.495 9.758c-2.678 1.215-5.097 2.84-7.176 4.788l-9.284-3.22-3.938 5.847 6.575 7.25c-1.043 2.723-1.64 5.634-1.72 8.63l-8.868 4.28 1.406 6.875 9.84.456c1.216 2.65 2.845 5.043 4.803 7.1L92.32 64.15l5.885 3.884 7.337-6.545c2.74 1.023 5.674 1.604 8.695 1.672l4.284 8.78 6.94-1.42.493-9.76c2.68-1.215 5.096-2.837 7.178-4.787l9.284 3.222 3.937-5.848-6.575-7.253c1.044-2.72 1.64-5.633 1.718-8.627l8.872-4.28z"/>
+                    <path id="gear3" fill="none" stroke="#303030" stroke-width="5" stroke-miterlimit="10" stroke-dasharray="332.5313" stroke-dashoffset="0" d="M157.905 212.14l.792-8.233L147.862 200c-.45-3.408-1.446-6.662-2.925-9.655l6.828-9.262-5.23-6.407-10.44 4.853c-2.708-2.1-5.786-3.76-9.134-4.88l-1.77-11.377-8.233-.79-3.906 10.83c-3.405.448-6.665 1.445-9.657 2.923l-9.26-6.83-6.405 5.236 4.854 10.44c-2.1 2.71-3.768 5.786-4.884 9.135l-11.375 1.77-.79 8.235 10.83 3.904c.448 3.408 1.444 6.668 2.924 9.66l-6.83 9.258 5.236 6.405 10.442-4.855c2.708 2.1 5.783 3.766 9.134 4.884l1.77 11.374 8.23.79 3.907-10.83c3.408-.45 6.665-1.444 9.66-2.924l9.26 6.83 6.403-5.235-4.853-10.443c2.1-2.71 3.767-5.785 4.883-9.135l11.375-1.767z"/>
+                    <circle id="gear4" fill="none" stroke="#303030" stroke-width="5" stroke-miterlimit="10" stroke-dasharray="55.74441" stroke-dashoffset="0" cx="117.114" cy="204.062" r="8.872"/>
+                </svg>
+
+                </div>
+                <div class="uk-width-9-10" style="padding:10px; height: 150px;">
+                    <h1>management</h1>
+                    <p>I've been president of my college a cappella group (the <a href="cmutreblemakers.com"> Treblemakers</a>) for the last two years. In that time, I've learned a lot about what it takes to lead a group and take on large scale projects.</p>
+                </div>
+        </div>
+            <!-- treble scroll -->
+            <div class="uk-container uk-width-medium-1-1 uk-margin-remove uk-padding-remove">
+                <div class="uk-cover-background" style="height: 200px; background-image: url(treblecrop.jpg)" data-uk-parallax="{bg: -400}"></div>
+            </div>
+
+        <div class="uk-grid uk-container-center" style="padding-left:40px; padding-right:40px;">
+            <div class="uk-width-medium-1-1 uk-margin" style="padding:10px;">
+                <p> What's a cappella have to do with anything? I manage every aspect of our 18 person group. We've booked a variety of paid gigs and won awards in competition. Just in the last two years, that means I've organized auditions for over 230 students. </p>
+                <p>I understand <b>time management and working under pressure</b>. I've planned two large scale concerts with 9 performing groups and over 400 attendees each.  I understand what it takes to <b>get different organizations to work together</b>. I create and manage our entire budget, and I've managed to triple it in the last two years. I understand what it takes to get things done.  I manage all travel, gigs, and performances, so I've learned to <b>work with an incredible range of people</b>. </p>
+                <p> I control all of our branding and the resources that our members use (which includes everything from creating tools for tracking attendance to coding a reminder bot to schedule and maintain who borrows our equipment). Running a group like ours is a constantly developing project, and it's my job to keep us on track.</p>
+                <p> I like to make good art, I work hard for a good product, and I can get a team to work together.</p>
+            </div>
+            
+
+        </div>
+    </div> 
+
+
+    <div style="height:50px;"></div>
+
+
+    <!-- DESIGN -->
+    <div id="design" class="uk-container uk-container-center uk-margin uk-responsive-width" style="background:#eee; margin-left: 70px; margin-right:70px; padding:20px;">
+
+        <div class="uk-grid uk-container-center" style="padding-left:40px; padding-right:40px;" >
+                <!-- header -->
+                <div class="uk-width-1-10 uk-padding-remove uk-margin-remove" data-uk-parallax="{pencilOffset:'500,0', viewport:0.5}">
+                 
+                <svg xmlns="http://www.w3.org/2000/svg" width="160.56" height="246.96" viewBox="0 0 160.56 246.96">
+                    <path id="pencil0" fill="none" stroke="#303030" stroke-width="5" stroke-miterlimit="10" stroke-dasharray="309.5322265" stroke-dashoffset="0" d="M33.504 190.262l24.658-8.563 2.88 27.155-57.936 34.742.365-67.55 24.832-11.366zM3.587 223.048c7.407-.34 14.898 4.812 17.787 10.14"/>
+                    <path id="pencil1" fill="none" stroke="#74a2f8" stroke-width="5" stroke-miterlimit="10" stroke-dasharray="473.86224365" stroke-dashoffset="0" d="M61.04 208.855l81.052-142.22s-.64-17.657-21.145-29.81c-20.91-11.45-36.427-3-36.427-3L3.47 176.05"/>
+                    <path id="pencil2" fill="none" stroke="#303030" stroke-width="5" stroke-miterlimit="10" stroke-dasharray="314.605" stroke-dashoffset="0" d="M141.923 66.93l16.498-28.95s-.637-17.657-21.143-29.81c-20.908-11.45-36.427-3-36.427-3L84.353 34.12M108.106 59.357l-62.012 108.81"/>
+                </svg>
+
+                </div>
+                <div class="uk-width-9-10" style="padding:10px; height:150px;">
+                    <h1>design / branding</h1>
+                    <p> Branding can be difficult, and so can getting a large group of people to agree. Creating a successful project isn't just about functionality, users have to like what they're seeing. That's what makes me valuable as a front end developer.</p>
+                    <p> Here are some things I've created for Treblemakers. </p> 
+                </div>
+
+            <div class="uk-width-medium-1-1 uk-margin" style="padding:10px;">
+
+            <!-- WORDMARK. show progression, tshirts, and tablecloth -->
+            <a class="uk-overlay uk-margin-small" href="wordmark.png" data-uk-lightbox="{group:'wordmark'}" title="Finished version of the wordmark I designed for our group this year. You can explore more pictures by using the arrow keys.">
+
+                <img src="logo_grid.png" width="400" height="200" alt="">
+                <figcaption class="uk-overlay-panel uk-overlay-bottom" style="background:rgba(200,200,200,0.7); color:#000">
+                    <p> Our wordmark. Click to see the wordmark in action. </p>
+                </figcaption>
+            </a>   
+            <a href="shirt.jpg" data-uk-lightbox="{group:'wordmark'}" title="Our new tee-shirts!"></a>  
+            <a href="tablecloth.jpg" data-uk-lightbox="{group:'wordmark'}" title="I actually did the screenprinting on this tablecloth by hand. We use it for advertising and recruitment throughout the year."></a>  
+            <a href="treblealumni.jpg" data-uk-lightbox="{group:'wordmark'}" title="I put together some care packages for our alumni with our new branding."></a>  
+
+
+            <!-- RECRUITMENT. all bubble people -->
+            <a class="uk-overlay uk-margin-small" href="recruitposter.png" data-uk-lightbox="{group:'bubblepeople'}" title="I created the designs for our recruitment campaign, which pulled in over 100 auditionees. You can explore more pictures by using the arrow keys. ">
+
+                <img src="recruitposter.png" width="400" height="200" alt="">
+                <figcaption class="uk-overlay-panel uk-overlay-bottom" style="background:rgba(200,200,200,0.7); color:#000">
+                    <p> Our recruitment posters. Click to see more.  </p>
+                </figcaption>
+            </a>   
+            <a href="profilepicture.png" data-uk-lightbox="{group:'bubblepeople'}" title="I made profile pictures for each member to bring attention to our social media efforts. This one is mine."></a>  
+
+
+            <!-- ADVERTISEMENT. all possible posters. -->
+
+            <a class="uk-overlay uk-margin-small" href="AMAC_cover.jpg" data-uk-lightbox="{group:'posters'}" title="The cover photo I designed for our Almost Midnight A Cappella concert.">
+
+                <img src="AMAC_cover.jpg" width="800" height="400" alt="">
+                <figcaption class="uk-overlay-panel uk-overlay-bottom" style="background:rgba(200,200,200,0.7); color:#000">
+                    <p> I've made many posters for our concerts and events. Click to see more.</p>
+                </figcaption>
+            </a>  
+            <a href="amac1.jpg" data-uk-lightbox="{group:'posters'}" title="A full version of our Almost Midnight A Cappella poster."></a>   
+            <a href="amac2.jpg" data-uk-lightbox="{group:'posters'}" title="Another Almost Midnight A Cappella poster. "></a>  
+            <a href="auditionspray.png" data-uk-lightbox="{group:'posters'}" title="Another recruitment poster."></a> 
+
+        </div>
+
+        </div>
+    </div> 
+
+
+<br>
+<div class="uk-text-center"> Like this website? I made it. Thanks for visiting. </div> 
+<br>
+
+    </body>
+</html>
+
+
+
