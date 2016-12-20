@@ -23,6 +23,7 @@ html {
  */
 body {
   margin: 0;
+  -webkit-font-smoothing: subpixel-antialiased;
 }
 /* Links
  ========================================================================== */
@@ -2022,6 +2023,7 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: lighter;
   letter-spacing: 0.1px;
+  -webkit-font-smoothing: subpixel-antialiased;
 }
 /* Appear not as link */
 .uk-navbar-nav > li > a[href='#'] {
