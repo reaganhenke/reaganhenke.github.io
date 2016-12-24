@@ -22,8 +22,10 @@
 	/*-webkit-text-stroke:2px transparent;*/
 }
 
-#headertext h1{
+
+#headertext h1, #headertext a{
 	color: #303030;
+	font-weight: normal;
 }
 
 #mynavbar{
