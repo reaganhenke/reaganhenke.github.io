@@ -1,6 +1,6 @@
 {
   "name": "reagan-portfolio",
-  "homepage": "https://reaganhenke.github.io/",
+  "homepage": "https://reaganhenke.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
