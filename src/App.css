@@ -4,15 +4,6 @@ body {
   font-family: sans-serif;
 }
 
-#headerblock {
-	/*background: rgba(255,0,0,0.5); this should be totally covered byt eh image */
-	/*height: 670px;*/
-}
-
-#headertextblock{
-	/*background: rgba(200,200,200,0.5); */
-	/*height:670px;*/
-}
 
 #headertext{
 	background: rgba(89,136,255,1); 
