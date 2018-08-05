@@ -1,29 +1,74 @@
 import React, { Component } from 'react';
 import brand from '../static-resources/rhbrand.png';
-import { Link } from 'react-router-dom'
+import { NavLink, Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import './nav-menu.css';
 
 export default class NavMenu extends Component {
+
+  constructor() {
+    super();
+
+    this.state = {
+        menuOpen: false,
+        mobile: (window.innerWidth < 600)
+    };
+    this.toggleMenu = this.toggleMenu.bind(this);
+    this.updateDimensions = this.updateDimensions.bind(this);
+    this.getMenu = this.getMenu.bind(this);
+  }
+
+  toggleMenu() {
+      this.setState({menuOpen: !this.state.menuOpen});
+  }
+
+  updateDimensions() {
+      var mobile = (window.innerWidth < 600);
+      this.setState({
+          mobile: mobile,
+          menuOpen: !mobile
+    });
+}
+
+componentWillMount() {
+    this.updateDimensions();
+}
+componentDidMount() {
+    window.addEventListener("resize", this.updateDimensions);
+}
+
+getMenu(){
+    if (this.state.mobile) {
+        return (<FontAwesomeIcon id="hamburger" icon={this.state.menuOpen ? 'times' : 'bars'} style={{ visibility: this.state.mobile ? 'visible': 'hidden'}} onClick={this.toggleMenu}/>);
+    } else {
+        return (<ul id="links">
+        <li><NavLink activeClassName='active' to="/projects">projects</NavLink></li>
+        <li><NavLink activeClassName='active' to="/experience">experience</NavLink></li>
+        <li><NavLink activeClassName='active' to="/classwork">classwork</NavLink></li>
+        <li><NavLink activeClassName='active' to="/management">management</NavLink></li>
+        <li><NavLink activeClassName='active' to="/design">design</NavLink></li>
+        </ul>)
+    }
+}
+
   render() {
-    return (
-      <div className="uk-container uk-container-center uk-responsive-width uk-padding-remove uk-margin-remove" >
-      
-          <nav id= "mynavbar" className="uk-navbar uk-responsive-width" data-uk-sticky="{animation: 'uk-animation-slide-top'}">
-              <Link to="/" className="uk-navbar-brand">
-                  <div className="uk-container uk-overlay" style={{width:'300px', height:'100px'}}>
-                  <img src={brand} width="100px" height="100px"></img>
-                  </div>
-              </Link>
-              <div className="uk-navbar-flip">
-              <ul id="navoptions" className="uk-navbar-nav" data-uk-scrollspy-nav="{closest: 'li', smoothscroll: true}" >
-                  <li><Link to="/projects">independent projects</Link></li>
-                  <li><Link to="/experience">experience</Link></li>
-                  <li><Link to="/classwork">classwork</Link></li>
-                  <li><Link to="/management">management</Link></li>
-                  <li><Link to="/design">design/branding</Link></li>
-              </ul>
-              </div>
-          </nav>
-      </div>
+    return (      
+        <div id="navbar">
+            <div id="bg-fill"></div>
+            <Link to="/" className="logo-link">
+                <img id="logo" src={brand} width="100px" height="100px"></img>
+            </Link>
+            <div className="nav-options">
+                {this.getMenu()}
+            </div>
+                <ul id="mobile-links" className={(this.state.menuOpen || !this.state.mobile ? 'show': 'hide')} >
+                    <li><NavLink activeClassName='active' to="/projects">projects</NavLink></li>
+                    <li><NavLink activeClassName='active' to="/experience">experience</NavLink></li>
+                    <li><NavLink activeClassName='active' to="/classwork">classwork</NavLink></li>
+                    <li><NavLink activeClassName='active' to="/management">management</NavLink></li>
+                    <li><NavLink activeClassName='active' to="/design">design</NavLink></li>
+                </ul>
+        </div>
     )
   }
 }

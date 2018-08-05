@@ -10,12 +10,21 @@ import Management from './management/management';
 import Design from './design/design';
 import { BrowserRouter, Route } from 'react-router-dom'
 
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBars } from '@fortawesome/free-solid-svg-icons'
+import { faTimes } from '@fortawesome/free-solid-svg-icons'
+
+library.add(faBars)
+library.add(faTimes)
+
 class App extends Component {
   render() {
     return (
       <BrowserRouter>
       <div>
         <NavMenu />
+        <div id= "content">
           <Route exact path='/' component={Header}/>
           <Route path='/projects' component={Projects}/>       
           <Route path='/experience' component={Experience}/>       
@@ -23,6 +32,7 @@ class App extends Component {
           <Route path='/management' component={Management}/>       
           <Route path='/design' component={Design}/>       
         <div className="uk-text-center"> Like this website? I made it. Thanks for visiting. </div> 
+        </div>
         </div>
         </BrowserRouter>
     );
