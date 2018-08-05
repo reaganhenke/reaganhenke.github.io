@@ -4,7 +4,6 @@ body {
   font-family: sans-serif;
 }
 
-
 #headertext{
 	background: rgba(89,136,255,1); 
 	padding: 40px;
@@ -15,15 +14,77 @@ body {
 	font-size: 16px;
 	letter-spacing: 1px;
 	-webkit-font-smoothing: subpixel-antialiased;
-	/*-webkit-font-smoothing: subpixel-antialiased;*/
-	/*-webkit-text-stroke:2px transparent;*/
 }
-
 
 #headertext h1, #headertext a{
 	color: #303030;
 	font-weight: normal;
 }
 
+.container {
+	width: 80%;
+	background-color:#eee;
+	margin: 30px auto;
+	padding: 20px;
+}
 
+.doodle {
+	width: 12%;
+}
 
+.title {
+	margin-bottom: 20px;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
+.half-col { 
+	width: 50%;
+	padding: 10px;
+}
+
+.third-col {
+	width: 33%;
+	padding: 10px;
+}
+
+.twothird-col {
+	width: 66%;
+}
+
+.section {
+	padding-bottom: 20px ;
+	padding-left: 20px;
+	width: 88%;
+}
+
+.title-section {
+	display: flex;
+	flex-direction: row;
+}
+
+.section-title {
+	margin: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+	.half-col, .third-col  { 
+		width: 100%;
+	}
+
+	.row {
+		flex-direction: column-reverse;
+	}
+
+	.title-section {
+		flex-direction: column;
+	}
+
+	.section {
+		padding-left: 0;
+	}
+}

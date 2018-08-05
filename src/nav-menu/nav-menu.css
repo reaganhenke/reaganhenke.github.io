@@ -78,8 +78,16 @@
   color: rgb(233,233,233);
 }
 
-#mobile-links li a:hover{
+#mobile-links li a:hover,
+#links li a:hover{
   color: rgb(200,200,200);
+}
+
+#mobile-links li a.active,
+#links li a.active{
+  color: rgb(180,180,180);
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 @media only screen and (max-width: 600px) {
