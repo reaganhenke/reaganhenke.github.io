@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import './custom-uikit.css';
 import NavMenu from './nav-menu/nav-menu';
+import About from './about/about';
 import Header from './header/header';
 import Projects from './projects/projects';
 import Experience from './experience/experience';
@@ -21,20 +21,13 @@ library.add(faTimes)
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
-      <div>
-        <NavMenu />
-        <div id= "content">
-          <Route exact path='/' component={Header}/>
-          <Route path='/projects' component={Projects}/>       
-          <Route path='/experience' component={Experience}/>       
-          <Route path='/classwork' component={Classwork}/>       
-          <Route path='/management' component={Management}/>       
-          <Route path='/design' component={Design}/>       
-        <div className="uk-text-center"> Like this website? I made it. Thanks for visiting. </div> 
-        </div>
-        </div>
-        </BrowserRouter>
+      <div class="content">
+        {/* <NavMenu /> */}
+        <About />
+        <Projects />
+        <Experience />
+        <footer> Like this website? I made it. Thanks for visiting. </footer> 
+      </div>
     );
   }
 }

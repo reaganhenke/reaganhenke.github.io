@@ -1,0 +1,35 @@
+.code-link {
+    width: 120px;
+    height: 120px;
+}
+
+.reagan-gif {
+    background-image: url('../static-resources/r_couch1.png');
+    height: 239px;
+    width: 400px;
+    animation: frames 4s infinite;
+}
+
+@keyframes frames {
+    0% {
+        background-image: url('../static-resources/r_couch1.png'); 
+    }
+    59% {
+        background-image: url('../static-resources/r_couch1.png'); 
+    }
+    60% {
+        background-image: url('../static-resources/r_couch2.png');
+    }
+    70% {
+        background-image: url('../static-resources/r_couch3.png');
+    }
+    80% {
+        background-image: url('../static-resources/r_couch2.png');
+    }
+    90% {
+        background-image: url('../static-resources/r_couch3.png');
+    }
+    100% {
+        background-image: url('../static-resources/r_couch2.png');
+    }
+}

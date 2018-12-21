@@ -42,11 +42,12 @@ getMenu(){
         return (<FontAwesomeIcon id="hamburger" icon={this.state.menuOpen ? 'times' : 'bars'} style={{ visibility: this.state.mobile ? 'visible': 'hidden'}} onClick={this.toggleMenu}/>);
     } else {
         return (<ul id="links">
-        <li><NavLink activeClassName='active' to="/projects">projects</NavLink></li>
+        links will go here when i figure that out
+        {/* <li><NavLink activeClassName='active' to="/projects">projects</NavLink></li>
         <li><NavLink activeClassName='active' to="/experience">experience</NavLink></li>
         <li><NavLink activeClassName='active' to="/classwork">classwork</NavLink></li>
         <li><NavLink activeClassName='active' to="/management">management</NavLink></li>
-        <li><NavLink activeClassName='active' to="/design">design</NavLink></li>
+        <li><NavLink activeClassName='active' to="/design">design</NavLink></li> */}
         </ul>)
     }
 }
