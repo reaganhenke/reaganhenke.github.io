@@ -1,25 +1,30 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Shrikhand');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Shrikhand|Staatliches');
 
 html, body {
 	margin: 0;
 	height: 100%;
 	width: 100%;
-	background-color: #3f6a88;
+	background-color: #315162;
 	color: white;
 }
 
 .content {
   font-family: Montserrat, sans-serif;
+  width: 90%;
+  height: 100%;
+  margin: auto;
 }
 
 h1 {
-    font-family: Shrikhand, cursive;
+    font-family: Staatliches, cursive;
     letter-spacing: 2px;
 	font-size: 40px;
 }
 
 h2 {
-	font-size: 20px;
+    font-size: 26px;
+    letter-spacing: 1px;
+	font-family: Staatliches;
 }
 
 h3 {
@@ -35,8 +40,9 @@ a {
 }
 
 .content-section {
-	background-color: #385160;
-	width: 90%;
+	box-sizing: border-box;
+	background-color: #21343c;
+	width: 100%;
 	padding: 20px;
 	border-radius: 10px;
 	margin: 40px auto;

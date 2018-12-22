@@ -26,7 +26,7 @@ class App extends Component {
         <About />
         <Projects />
         <Experience />
-        <footer> Like this website? I made it. Thanks for visiting. </footer> 
+        <footer> Thanks for visiting. </footer> 
       </div>
     );
   }
