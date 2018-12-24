@@ -21,8 +21,8 @@ export default class About extends Component {
           </div>
           <div className="row">
             <div>
-              <a href="https://codepen.io/reaganhenke/"><img className="code-link" src={codepen}></img></a>
-              <a href="https://github.com/reaganhenke"><img className="code-link" src={github}></img></a>
+              <a href="https://codepen.io/reaganhenke/"><img className="code-link" src={codepen} alt="codepen"></img></a>
+              <a href="https://github.com/reaganhenke"><img className="code-link" src={github} alt="github"></img></a>
             </div>
             <div class="reagan-gif"></div>
           </div>

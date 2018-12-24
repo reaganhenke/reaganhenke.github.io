@@ -21,7 +21,7 @@ export default class Projects extends Component {
               <p>Deployed at <a href="http://ministryoftruth.surge.sh/">ministryoftruth.surge.sh</a>.</p>
           </div>
           <div>
-            <img width="100%" src={ministryoftruth}></img>
+            <img width="100%" src={ministryoftruth} alt="Ministry of Truth Game"></img>
           </div>
         </div>
 
@@ -32,7 +32,7 @@ export default class Projects extends Component {
             <p> You can download SpamBot <a href="https://chrome.google.com/webstore/detail/spambot/jmfpkbpeiljmacbfmkeldklpcgbfngdj?hl=en"> on the Google Store</a></p>
           </div>
           <div>
-            <img width="100%" src={spambot}></img>
+            <img width="100%" src={spambot} alt="Spambot screenshot"></img>
           </div>
         </div>
 
