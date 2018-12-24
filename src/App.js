@@ -14,7 +14,7 @@ library.add(faTimes)
 class App extends Component {
   render() {
     return (
-      <div class="content">
+      <div className="content">
         {/* <NavMenu /> */}
         <About />
         <Projects />
