@@ -14,19 +14,19 @@ export default class About extends Component {
           <div className="word-board">
             <Magnet content="developer" width="90" top='12%' left='-1%'></Magnet>
             <Magnet content="coder" width="80" top='10%' left='23%'></Magnet>
-            <Magnet content="programmer" width="110" top='13%' left='61%'></Magnet>
-            <Magnet content="musician" width="80" top='12%' left='85%'></Magnet>
+            <Magnet content="programmer" width="110" top='13%' right='19%'></Magnet>
+            <Magnet content="musician" width="80" top='12%' right='-2%'></Magnet>
             <Magnet content="code" width="80" top='38%' left='11%'></Magnet>
             <Magnet content="sing" width="80" top='39%' left='31%'></Magnet>
             <Magnet content="create" width="80" top='25%' left='43%'></Magnet>
-            <Magnet content="build" width="80" top='43%' left='56%'></Magnet>
-            <Magnet content="design" width="80" top='39%' left='76%'></Magnet>
-            <Magnet content="html" width="80" top='67%' left='-1%'></Magnet>
+            <Magnet content="build" width="80" top='43%' right='33%'></Magnet>
+            <Magnet content="design" width="80" top='39%' right='13%'></Magnet>
+            <Magnet content="html" width="80" top='59%' left='-1%'></Magnet>
             <Magnet content="javascript" width="80" top='73%' left='20%'></Magnet>
             <Magnet content="angular" width="80" top='65%' left='39%'></Magnet>
             <Magnet content="react" width="80" top='71%' left='58%'></Magnet>
-            <Magnet content="node" width="80" top='72%' left='75%'></Magnet>
-            <Magnet content="scss" width="80" top='60%' left='89%'></Magnet>
+            <Magnet content="node" width="80" top='72%' right='12%'></Magnet>
+            <Magnet content="scss" width="80" top='60%' right='-2%'></Magnet>
             <div className="help-text"><FontAwesomeIcon icon={faHandPointUp}/>play with me</div>
           </div>
           <h1>Hello! I’m Reagan.</h1>

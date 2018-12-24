@@ -19,12 +19,13 @@ constructor(props) {
   render() {
     const style = {
         top: this.state.yPos ? this.state.yPos + 'px' : this.props.top, 
+        right: this.props.right,
         left: this.state.xPos ? this.state.xPos + 'px' : this.props.left,
         width: this.props.width + 'px',
         transform: `rotate(${Math.floor(Math.random() * 20) - 10}deg)`
     }
     return (
-        <div className="magnet" style={style} draggable="true" onDragEnd={this.ondragend}>{this.props.content}</div> 
+        <div className="magnet" style={style} draggable="true" onDragEnd={this.ondragend} onTouchMove={this.ondragend}>{this.props.content}</div> 
     )
   }
 }
