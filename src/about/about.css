@@ -4,11 +4,10 @@
 
 .about-div h1{
     font-size: 64px;
-    margin-top: 8px;
 }
 
 .word-board {
-    height: 30vh;
+    height: 250px;
     position: relative;
 }
 
@@ -138,5 +137,8 @@
     }
     .reagan-gif {
         margin-right: 0;
+        width: 100%;
+        background-size: 100%;
+        background-repeat: no-repeat;
     }
   }

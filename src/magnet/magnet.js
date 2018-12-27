@@ -16,7 +16,7 @@ export default class Magnet extends Component {
         const margin = window.innerWidth * 0.1 / 2;
         this.setState({
             xPos: e.targetTouches[0].pageX - margin - this.props.width/2,
-            yPos: e.targetTouches[0].pageY - 10,
+            yPos: (e.targetTouches[0].pageY < 250) ? e.targetTouches[0].pageY - 10 : 250,
         })
         document.documentElement.style.overflow = 'hidden';
         document.documentElement.style.position = 'fixed';
