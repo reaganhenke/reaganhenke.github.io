@@ -1,21 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.4300531f.chunk.css",
-    "main.js": "/static/js/main.bda908a5.chunk.js",
-    "main.js.map": "/static/js/main.bda908a5.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.fe0caf4c.chunk.js": "/static/js/2.fe0caf4c.chunk.js",
-    "static/js/2.fe0caf4c.chunk.js.map": "/static/js/2.fe0caf4c.chunk.js.map",
+    "main.css": "/static/css/main.9acabdf6.chunk.css",
+    "main.js": "/static/js/main.d3bfbce6.chunk.js",
+    "main.js.map": "/static/js/main.d3bfbce6.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.000aa470.js",
+    "runtime-main.js.map": "/static/js/runtime-main.000aa470.js.map",
+    "static/js/2.42dfe716.chunk.js": "/static/js/2.42dfe716.chunk.js",
+    "static/js/2.42dfe716.chunk.js.map": "/static/js/2.42dfe716.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.9b8e39b33dde2d10fa826aa3d53838b5.js": "/precache-manifest.9b8e39b33dde2d10fa826aa3d53838b5.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.4300531f.chunk.css.map": "/static/css/main.4300531f.chunk.css.map",
-    "static/media/8bitclips.mp4": "/static/media/8bitclips.fd10d315.mp4",
-    "static/media/codepen.png": "/static/media/codepen.f28134af.png",
-    "static/media/knitclips.mp4": "/static/media/knitclips.d224b991.mp4",
-    "static/media/ministryoftruth.png": "/static/media/ministryoftruth.242fafd4.png",
-    "static/media/musicclips.mp4": "/static/media/musicclips.53d1c56d.mp4",
-    "static/media/spambot_demo.png": "/static/media/spambot_demo.aba968a0.png"
-  }
+    "static/css/main.9acabdf6.chunk.css.map": "/static/css/main.9acabdf6.chunk.css.map",
+    "static/js/2.42dfe716.chunk.js.LICENSE.txt": "/static/js/2.42dfe716.chunk.js.LICENSE.txt",
+    "static/media/8bitclips.1f3245e5.mp4": "/static/media/8bitclips.1f3245e5.mp4",
+    "static/media/codepen.bb5ffd97.png": "/static/media/codepen.bb5ffd97.png",
+    "static/media/ifthencreate.05fe6457.png": "/static/media/ifthencreate.05fe6457.png",
+    "static/media/imissmycafe.b5be1331.png": "/static/media/imissmycafe.b5be1331.png",
+    "static/media/knitclips.7881738a.mp4": "/static/media/knitclips.7881738a.mp4",
+    "static/media/ministryoftruth.fef20bfa.png": "/static/media/ministryoftruth.fef20bfa.png",
+    "static/media/musicclips.27b5e010.mp4": "/static/media/musicclips.27b5e010.mp4",
+    "static/media/spambot_demo.284a04c0.png": "/static/media/spambot_demo.284a04c0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.000aa470.js",
+    "static/js/2.42dfe716.chunk.js",
+    "static/css/main.9acabdf6.chunk.css",
+    "static/js/main.d3bfbce6.chunk.js"
+  ]
 }

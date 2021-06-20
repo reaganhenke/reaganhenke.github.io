@@ -1,6 +1,6 @@
 # reaganhenke.com
 
-This repo contains Reagan Henke's portfolio site and links to her latest projects. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repo contains Reagan Henke's portfolio site and links to her latest projects. It is live at [reaganhenke.com](https://reaganhenke.com/) This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
