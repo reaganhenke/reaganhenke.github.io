@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import spambot from '../static-resources/spambot_demo.png';
 import bitclips from '../static-resources/8bitclips.mp4';
+import imissmycafe from '../static-resources/imissmycafe.png';
+import ifthencreate from '../static-resources/ifthencreate.png';
 import ministryoftruth from '../static-resources/ministryoftruth.png';
 import musicclips from '../static-resources/musicclips.mp4';
 import knitclips from '../static-resources/knitclips.mp4';
@@ -11,6 +13,35 @@ export default class Projects extends Component {
     return (
       <div id="projects" className="content-section">
         <h1>Projects</h1>
+
+        <div className="project">
+          <div>
+            <h2>I Miss My Cafe (2021)</h2>
+            <p>Inspired by sites like <a class="nocolor" href="https://imisstheoffice.eu/">IMissTheOffice</a>, <a class="nocolor" href="http://imissmybar.com/">IMissMyBar</a>,
+            and <a class="nocolor" href="https://coffitivity.com/">Coffitivity</a>, I teamed up with sound designer <a href="https://www.evancook.audio/">evan cook</a> and
+            made a site with a coffee shop ambience for working from home. The site has Spotify integration, volume controls, and custom components.</p>
+            <p>IMissMyCafe went viral on TikTok when I first launched it, and I had to scramble to fix hosting issues and bring down costs. I was shocked and grateful that 
+              so many users offered to help keep the site up. Since that first launch, the site has had over 800K visitors. 
+            </p>
+            <p>The site is currently live at <a href="https://imissmycafe.com/">IMissMyCafe.com</a>.</p>
+          </div>
+          <div>
+            <img width="100%" src={imissmycafe} alt="I Miss My Cafe screenshot"></img>
+          </div>
+        </div>
+
+        <div className="project">
+          <div>
+            <h2>IfThenCreate (2020)</h2>
+            <p>IfThenCreate is an Etsy shop I started in lockdown. I bake pies and have them printed on small puzzles and pins. 
+              This has been really fun project that allowed me to stay connected and share my baking with friends in quarantine.
+              I've also done a few raffles and been able to raise money for causes I care about.</p>
+            <p><a href="https://www.etsy.com/shop/ifthencreate/">IfThenCreate</a></p>
+          </div>
+          <div>
+            <img width="100%" src={ifthencreate} alt="If Then Create Etsy Store"></img>
+          </div>
+        </div>
 
         <div className="project">
           <div>
@@ -29,7 +60,8 @@ export default class Projects extends Component {
           <div>
             <h2>SpamBot (2016)</h2>
             <p>SpamBot is a Google Sheets add-on I wrote to get responses to Google Forms more efficiently. It parses the responses so far and sends timed email reminders to people it's still waiting on. SpamBot has a full user interface, allowing for customizable email content, timing, and respondant lists. </p>
-            <p> You can download SpamBot <a href="https://chrome.google.com/webstore/detail/spambot/jmfpkbpeiljmacbfmkeldklpcgbfngdj?hl=en"> on the Google Store</a></p>
+            {/* <p> You can download SpamBot <a href="https://chrome.google.com/webstore/detail/spambot/jmfpkbpeiljmacbfmkeldklpcgbfngdj?hl=en"> on the Google Store</a></p> */}
+            <p>SpamBot is no longer maintained or available to download.</p>
           </div>
           <div>
             <img width="100%" src={spambot} alt="Spambot screenshot"></img>

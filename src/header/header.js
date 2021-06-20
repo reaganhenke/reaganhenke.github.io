@@ -13,7 +13,7 @@ export default class Header extends Component {
           <div id = "headertext" className="uk-container uk-container-center" data-uk-parallax="{opacity: 0, viewport: 0.5, y: -80}"> 
           <h1 className="header"> Hello. </h1> 
           <p> My name is Reagan Henke. I studied Psychology and Computer Science at Carnegie Mellon University. I have experience as a software engineer with Best Nomos Medical and as a research assistant and editor. </p>
-          <p> In my free time, I manage my a cappella group. I'm a passionate musician and I love to sing. Go ahead and check out my <a href= "https://github.com/reaganhenke/">Github</a> or email me at <i>rhenke@andrew.cmu.edu.</i></p> 
+          <p> In my free time, I manage my a cappella group. I'm a passionate musician and I love to sing. Go ahead and check out my <a href= "https://github.com/reaganhenke/">Github</a>.</p> 
         </div>
       </div>
       

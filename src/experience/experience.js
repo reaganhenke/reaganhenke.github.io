@@ -10,12 +10,12 @@ export default class Experience extends Component {
           <div>
               <h2>Software Engineer</h2>
               <h3>Capital One (2017 - present)</h3>
-              <p>Currently, I work for Capital One as a software engineer in their Technology Development Program, a two year rotational program. I’m on a front end team working in Angular 6.</p>
+              <p>Currently, I work for Capital One as a software engineer. I'm an alumni of their CODA and TDP programs.</p>
           </div>
           <div>
               <h2>Software Engineer Intern</h2>
               <h3>Best Nomos Medical (Summer 2016)</h3>
-              <p> Over the summer I worked with Best Nomos Medical International in Pittsburgh, PA as a software engineer intern. I debugged software for radiation oncology and wrote tests for the new release. I also worked on the test database and bug reporting system.</p>
+              <p> I was a summer intern for Best Nomos Medical International in Pittsburgh, PA. I debugged software for radiation oncology and wrote tests for the new release. I also worked on the test database and bug reporting system.</p>
           </div>
         </div>
         <div className="jobs-row">

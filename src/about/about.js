@@ -37,9 +37,7 @@ export default class About extends Component {
               and a minor in Computer Science. I combine my interests 
               to build beautiful, accessible front end designs with intuitive 
               user interfaces.</p>
-            <p>In my free time, I love music and theater. I perform regularly 
-              with a shadowcast in DC, and love going to shows and museums in 
-              the city.</p>
+            <p>In my free time, I love music and theater. I love to sing and visit museums in DC.</p>
           </div>
           <div className="row">
             <div className="links">
